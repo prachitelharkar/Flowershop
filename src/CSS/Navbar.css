@@ -11,7 +11,14 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 }
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 3px 3px -2px rgba(0,0,0,.4);
 
+}
 .navbar-brand{
   font-size: 35px ;
   text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);

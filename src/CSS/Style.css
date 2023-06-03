@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&family=PT+Serif&family=Playfair:ital,wght@0,500;0,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Serif&family=Nunito&family=PT+Serif&family=Playfair:ital,wght@0,500;0,600;1,800&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -12,8 +13,147 @@ body {
 	position: relative;
 	--white: #ebebeb;
 	--pink: #b730c1;
-}* {
+}
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    
 }
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   background: url(/src/Components/images/home.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+    
+}
+.home .home-text{
+    max-width: 60rem;
+    margin-left: 30px;
+
+}
+.home .home-text h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing:0.3cm ;
+    color: #473a4a;
+}
+.home .home-text h3{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 1rem 0;
+    color: #473a4a;
+
+}
+.home .home-text h3 span{
+    color: var(--pink);
+}
+.home .home-text p{
+    font-size: 25px;
+    color: #473a4a;
+    font-style: italic;
+}
+.home .btn{
+    background-color: var(--pink);
+    color:white;
+    font-size: 20px;
+    
+}
+.arrival{
+    margin-top: 70px;
+    background: url(/src/Components/images/home1.jpg) no-repeat;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin-left: 9%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.arrival .arrival-text h1{
+    margin-left: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: var(--pink);
+    font-size: 50px;
+    font-size: 4em;
+
+}
+.arrival .arrival-text p{
+    margin-left: 40px;
+
+}
+.arrival .arrival-text h3{
+    margin-left: 40px;
+    color: var(--pink);
+    font-size: 1.4em;
+    padding: 2rem 0;
+
+}
+
+.container {
+	max-width: 70%;
+    margin-top: 30px;
+	padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: rgb(248, 248, 249);  
+}
+  
+  .flower-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .flower-item {
+	width: 200px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	text-align: center;
+  }
+  
+  .flower-item img {
+	width: 100%;
+	max-height: 150px;
+	object-fit: cover;
+	border-radius: 4px;
+  }
+  
+  .flower-details {
+	margin-top: 10px;
+  }
+  
+  .cart-list {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .cart-list li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  .container .flowers button {
+	display: block;
+	margin-top: 10px;
+    background-color: var(--pink);
+    color: white;  
+    font-size: 15px;
+    margin-left: 45px; 
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+
+}
+  .cart .quantity .button{
+
+  }
+  
+  
