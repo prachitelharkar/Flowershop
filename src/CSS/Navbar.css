@@ -1,0 +1,33 @@
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: "Playfair", sans-serif;
+	position: relative;
+	--white: #ebebeb;
+	--pink: #b730c1;
+}* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar-brand{
+  font-size: 35px ;
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+  
+}
+.navbar-brand span {
+	color: var(--pink);
+  font-style: italic;
+  font-size: 1.2em;
+}
+.nav-item{
+  font-size:23px;
+
+}
+.navbar-collapse .nav-item .nav-link:hover{
+	color: var(--pink);
+  border-bottom: 0.1rem solid var(--pink);
+  padding-bottom:0.5rem; 
+}
