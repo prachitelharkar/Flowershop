@@ -1,7 +1,12 @@
 import React from 'react'
+import Footer from './Footer';
+import Navbar from './Navbar';
+import Flowers from './Flowers';
+import Review from './Review';
 const Home = () => {
   return (
     <>
+       <Navbar/>
         <section className="home" id="home">
             <div className="home-text">
                 <h1>FLORALHAVEN </h1>
@@ -20,6 +25,9 @@ const Home = () => {
 </h3>
         </div>
         </div>
+        <Flowers/>
+        <Review/>
+        <Footer/>
     </>
   )
 }

@@ -11,6 +11,7 @@ import gerbera from "./images/gerbera.jpg";
 import img from "./images/img.jpg";
 import img1 from "./images/img1.jpg";
 import marigold from "./images/marigold.jpg";
+import Navbar from './Navbar';
 
 const Flower = () => {
     const [selectedFlowers, setSelectedFlowers] = useState([]);
@@ -69,6 +70,8 @@ const Flower = () => {
   };
 
   return (
+    <div>
+    <Navbar/>
     <div className="container">
       
 
@@ -115,6 +118,7 @@ const Flower = () => {
       </section>
 
       
+    </div>
     </div>
   );
 };
