@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="App">
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
  <div className="container-fluid">
-   <a className="navbar-brand mx-3" href="/">Floral<span>Haven</span></a>
+   <a className="navbar-brand mx-2" href="/">Floral<span>Haven</span></a>
    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
      <span className="navbar-toggler-icon"></span>
    </button>
@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <li className="nav-item dropdown mx-4">
                 <a className="nav-link dropdown-toggle text-black" href="/" id="navbarDropdown" role="button"
-                data-mdb-toggle="dropdown" aria-expanded="false"> <i className="far fa-user fa-lg "></i></a>
+                data-mdb-toggle="dropdown" aria-expanded="false"> <i className="far fa-user fa-sm "></i></a>
                 <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                     <li>
                         <a className="dropdown-item" href="/">My account</a>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </ul>
             </li>
             <li className="nav-item me-3 me-lg-0 mx-4">
-                <a className="nav-link text-black" href="/"><i class="fas fa-shopping-cart fa-lg mx-1"></i></a>
+                <a className="nav-link text-black" href="/"><i class="fas fa-shopping-cart fa-sm mx-1"></i></a>
             </li>
             </ul>
       

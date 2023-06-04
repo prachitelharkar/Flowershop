@@ -1,5 +1,5 @@
 import React from 'react';
-import  daisy from './images/daisy.jpg';
+import  about from './images/about.jpg';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -8,29 +8,27 @@ const About = () => {
   return (
     <div>
       <Navbar/>
+      <div className="about">
     <div className="about-us-container">
       <div className="about-us-image">
-        <img src={daisy} alt="Flower" />
+        <img src={about} alt="Flower" />
       </div>
       <div className="about-us-content">
         <h2>About Us</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          convallis facilisis. Integer ultrices, nunc eu bibendum dapibus,
-          risus velit dictum nunc, vel molestie sem ex vitae lectus. Etiam ac
-          vestibulum massa, in fermentum erat. Morbi convallis mauris in risus
-          convallis, ut aliquam tellus gravida. Donec fermentum dolor non dui
-          congue, eu euismod sem mollis. Fusce in fringilla dolor. Quisque eu
-          aliquam orci. Nam sed neque bibendum, commodo odio sit amet, finibus
-          nisi. Vivamus maximus ligula id nibh malesuada, et tristique metus
-          faucibus. Suspendisse potenti. Integer eu felis in velit fermentum
-          fringilla sed quis ante.
+        Welcome to our Flower Website! We are passionate about bringing the beauty of flowers into your life. With a wide variety of exquisite blooms, we strive to provide the perfect floral arrangements for every occasion.
+
+Our team of dedicated florists meticulously handcrafts each arrangement, ensuring that every petal is perfectly placed. We source our flowers from the finest local and international growers, guaranteeing the freshest and most vibrant blooms.
+
+Whether you're celebrating a special milestone, expressing love and affection, or simply brightening someone's day, our flower arrangements are designed to convey your heartfelt emotions. From elegant roses to cheerful sunflowers, our collection offers a diverse range of options to suit your personal style and preferences.
         </p>
         <button className="btn">Learn More</button>
       </div>
     </div>
+    </div>
     <Footer/>
     </div>
+    
   );
 };
 

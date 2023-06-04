@@ -1,26 +1,15 @@
 
-body {
-	width: 100vw;
-	height: 100vh;
-	font-family: "Playfair", sans-serif;
-	position: relative;
-	--white: #ebebeb;
-	--pink: #b730c1;
-}* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 .navbar{
-	position: fixed;
+	position: fixed !important;
 	top: 0;
 	left: 0;
 	right: 0;
-	box-shadow: 0 3px 3px -2px rgba(0,0,0,.4);
-
+	box-shadow: 0 1px 3px -2px rgba(0,0,0,.4);
+    z-index: 9999;
 }
 .navbar-brand{
-  font-size: 35px ;
+  font-size: 30px ;
   text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
   
 }
@@ -35,6 +24,5 @@ body {
 }
 .navbar-collapse .nav-item .nav-link:hover{
 	color: var(--pink);
-  border-bottom: 0.1rem solid var(--pink);
   padding-bottom:0.5rem; 
 }
