@@ -152,8 +152,75 @@ body {
     border: 1px solid #ddd;
 
 }
-  .cart .quantity .button{
+  
+  
+  .c-item{
+	height: 400px;
+	margin-top: 10px;
+}
+.c-img{
+	height: 100%;
+}
+.person{
+	height: 7rem;
+	width:7rem;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 50px;
+}
+.carousel-item h5{
+	color: rgb(28, 22, 22);
+}
+.carousel-item p{
+	color: black;
+}
+.review h2{
+text-align: center;
+margin-top: 20px;
+font-weight: 700;
+background-color: rgb(246, 239, 244);
+}
+.review h2:hover{
+    color: var(--pink);
+}
 
+.about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
+  .about-us-image {
+    flex: 1;
+  }
+  
+  .about-us-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-us-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .about-us-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+  }
+
   
