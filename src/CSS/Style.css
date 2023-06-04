@@ -12,7 +12,7 @@ body {
 	font-family: "Playfair", sans-serif;
 	position: relative;
 	--white: #ebebeb;
-	--pink:  #ff4081;
+	--pink:  #d21967;
     overflow-x: hidden; /* Hide horizontal scrollbar */
     padding-top: 50px;
 }
@@ -258,13 +258,18 @@ background-color: rgb(246, 239, 244);
   
   .btn {
     padding: 10px 20px;
-    background-color: #ff4081;
+    background-color: #d21967;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
   }
+  .btn:hover{
+    background-color:#2f2231;
+    color: white;
+
+}
   .about-us-image img {
     width: 60%;
     height: auto;
