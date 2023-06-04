@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Contact = () => {
   return (
@@ -16,7 +17,22 @@ const Contact = () => {
            referrerpolicy="no-referrer-when-downgrade">
 
            </iframe>
+           <div className="contact">
+           <form >
+            <h3>Let's Get in Touch</h3>
+            <div className="inputbox">
+                <input type="text" placeholder="Name"/>
+             </div>
+             <div className="inputbox">
+                <input type="text" placeholder="Email"/>
+             </div><div className="inputarea">
+                <input type="text" placeholder="Message"/>
+             </div>
+             <input type="submit" value="Contact Now" className="btn"/>
+             </form>
            
+    </div>
+    <Footer/>
     </div>
   )
 }

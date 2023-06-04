@@ -222,5 +222,27 @@ background-color: rgb(246, 239, 244);
     height: auto;
     border-radius: 50%;
   }
+.contact form{
+    flex: 1 1 45rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.contact form h3{
+    font-size: 2.5rem;
+}
+.contact form .inputbox{
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.contact form .inputbox input{
+width: 30%;
 
-  
+}
+.contact form .inputarea input{
+padding: 2rem;
+margin-top: 20px;
+width: 30%;
+
+}
+
+
