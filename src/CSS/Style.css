@@ -13,7 +13,7 @@ body {
 	position: relative;
 	--white: #ebebeb;
 	--pink:  #d21967;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden; 
     padding-top: 50px;
 }
 
